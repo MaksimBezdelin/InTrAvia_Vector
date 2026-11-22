@@ -1,0 +1,15 @@
+@'
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+'@ | Set-Content -Encoding utf8 .gitignore
